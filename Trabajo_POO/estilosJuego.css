@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#contenedor {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#botones-eleccion {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.1s ease;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#piedra { background-color: #8e44ad; color: #fff; }
+#papel { background-color: #2980b9; color: #fff; }
+#tijera { background-color: #27ae60; color: #fff; }
+#lagarto { background-color: #f39c12; color: #fff; }
+#spock { background-color: #16a085; color: #fff; }
+#jugar { background-color: #e67e22; color: #fff; margin-top: 10px; }
+
+#resultado {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
